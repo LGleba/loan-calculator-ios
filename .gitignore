@@ -1,0 +1,27 @@
+# Xcode
+# <nameProject>/				            - Necessary
+# <nameProject>.xcodeproj/project.pbxproj   - Necessary
+# <nameProject>.xcodeproj 			        - Else ignore
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcshareddata/
+*.xcodeproj/xcuserdata/
+
+# macOS system file
+.DS_Store
+**/.DS_Store
+
+# JetBrains IDEs (AppCode, etc.)
+.idea/
+**/.idea/
+
+# Ignore because tuist generate it
+Derived
+**.plist
+**.xcworkspace
+**.build
+
+**.pbxproj
+**.xcodeproj
+LoadCalculator.xcodeproj/project.pbxproj
+LoadCalculator.xcodeproj
+project.pbxproj
